@@ -1,0 +1,239 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+@import "reset.css"
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Mulish, Roboto, sans-serif;
+}
+.conteiner {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteiner-full {
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    min-width: 200px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.1;
+    font-family: inherit;
+    color: #458FF6;
+    background-color: white;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    text-align: center;
+    padding: 20px;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.56;
+    color: #000000;
+}
+.title::after {
+    display: block;
+    content: '';
+    width: 56px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+.title-center {
+    text-align: center;
+}
+.text-center::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* header */
+header {
+    padding-top: 56px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 12px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.25; 
+    color: #233348;
+}
+.n-list {
+    display: flex;
+}
+.n-list li {
+    margin-right: 40px;
+}
+.n-list li:last-child {
+    margin-right: 0px;
+}
+.n-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.28;
+    color: #1F1534;
+    opacity: 0.5;
+}
+.n-link-entered {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.28;
+    color: #1F1534;
+}
+/*Hero*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 190px;
+}
+.hero-content {
+    margin-right: 110px;
+}
+.hero-content h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.17;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.hero-content p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.52;
+    color: #7D7987;
+    margin-bottom: 45px;
+}
+.button-filled {
+    background: #458FF6;
+    color: white;
+}
+/* Services */
+.services h2 {
+    margin-bottom: 33px;
+}
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: center;
+    color: #7D7987;
+}
+.services > p {
+    margin-bottom: 80px;
+    width: 952px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-bottom: 70px;
+}
+.services-cards li {
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.img1 {
+    width: 92px; 
+    height: 90px;
+    margin-top: 54px;
+    margin-left: 37px;
+}
+.img2 {
+    width:62px; 
+    height: 85px;
+    margin-top: 62px;
+    margin-left: 37px;
+}
+.img3 {
+    width: 67px; 
+    height: 95px;
+    margin-top: 47px;
+    margin-left: 38px;
+}
+.img4 {
+    width: 67px; 
+    height: 95px;
+    margin-top: 46px;
+    margin-left: 40px;
+}
+.img5 {
+    width: 80px; 
+    height: 85px;
+    margin-top: 59px;
+    margin-left: 40px;
+}
+.img6 {
+    width: 67px; 
+    height: 95px;
+    margin-top: 52px;
+    margin-left: 38px;
+}
+.services-cards h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2.33;
+    color: #000000;
+    padding-left: 38px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+.services-cards p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #7D7987;
+    padding-left: 39px;
+    
+    padding-right: 50px;
+    margin-top: 1px;
+}
+.services-cards li:last-child {
+    margin-right: 0px;
+    height: 354px;
+}
+.content-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
