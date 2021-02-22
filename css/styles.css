@@ -111,6 +111,7 @@ span {
     line-height: 1.28;
     color: #1F1534;
 }
+
 /*Hero*/
 .hero {
     display: flex;
@@ -139,6 +140,7 @@ span {
     background: #458FF6;
     color: white;
 }
+
 /* Services */
 .services h2 {
     margin-bottom: 33px;
@@ -216,7 +218,6 @@ span {
     padding-left: 38px;
     margin-top: 20px;
     margin-bottom: 0px;
-
 }
 .services-cards p {
     font-weight: 300;
@@ -236,4 +237,75 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 220px;
+}
+
+/* 1st-photo section */
+
+.first-photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 229px;
+}
+.first-photo-content {
+    margin-left: 100px;   
+}
+.first-title::after {
+    margin-left: 0;
+    margin-right: 0;
+}
+.first-photo-content h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+}
+.first-photo-content p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #7D7987;
+    margin-bottom: 44px;
+    margin-top: 31px;
+}   
+.content-1st {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 2nd-photo section*/
+.second-photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 251px;
+}
+.second-photo-content {
+    margin-right: 123px;
+}
+.second-title::after {
+    margin-left: 0;
+    margin-right: 0;
+}
+.second-photo-content h2 {
+    font-weight: bold; 
+    font-size: 36px;
+    line-height: 1.33;
+    color: #000000;
+}
+.second-photo-content p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #7D7987;
+    margin-bottom: 44px;
+    margin-top: 31px;
+}
+.content-2nd {
+    display: flex;
+    flex-wrap: wrap;
+}
+.arrow {
+    margin-left: 15px;
 }
